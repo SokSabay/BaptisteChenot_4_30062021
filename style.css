@@ -302,7 +302,7 @@ a:hover {
 }
 
 .navbar-brand img {
-    max-height: 200px;
+    height: 2.5em;
     margin: 0 5px 0 0;
     display: inline;
 }
@@ -640,19 +640,13 @@ a[data-lightbox]:hover img {
 }
 
 h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-label,
-.btn,
-a {
+h2
+{
     font-family: "helvetica";
-    font-weight: 400;
+    font-weight: 800;
     color: #575757!important;
 }
+
 
 .container {
     max-width: 1000px;
@@ -677,7 +671,9 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 20px;
+    margin: 0 0  0;
+    text-align: center;
 }
 
 .tight-width-whitespace {
@@ -736,7 +732,7 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: #1f1f1f!important;
 }
 
 .portfolio-thumb {
@@ -780,7 +776,7 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #1A1A1A!important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -962,7 +958,7 @@ h4 {
         box-shadow: none;
     }
     .navbar-brand img {
-        max-height: 40px;
+        max-height: 2em;
         width: auto;
     }
     .nav-invert .navbar-header {
@@ -1039,4 +1035,8 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+
+.citation {
+    font-size: 2em;
 }
